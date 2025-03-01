@@ -1,0 +1,23 @@
+﻿Designator,Footprint,Quantity,Value,LCSC Part #
+"C1, C2",0805,2,10uF,C15850
+"C10, C13, C14, C15, C16, C17, C18, C19, C3, C4, C5, C6, C9",0603,13,100nF,C14663
+"C11, C12",0805,2,2.2uF,C377773
+"C7, C8",0603,2,20pF,C1648
+D1,0805,1,LED,C2297
+"D2, D3",D_SMA_Handsoldering,2,D_Schottky,C14996
+J1,PinHeader_1x05_P2.54mm_Vertical,1,SWD,
+J2,Conn_USBmini_reichelt,1,USB_B_Micro,
+J3,PinSocket_2x04_P2.54mm_Vertical,1,Wifi,
+Q1,SOT-23,1,BC817,C466643
+"R1, R4, R5, R6, R7",0805,5,510R,C17734
+"R10, R11, R12, R13, R14, R15, R8, R9",0805,8,100R,C17408
+"R2, R3",0805,2,10k,C17414
+SW1,SW_PUSH_6mm_H8mm,1,Reset,
+SW2,SW_PUSH_6mm_H8mm,1,Menu,
+SW3,SW_PUSH_6mm_H8mm,1,Special,
+"TP1, TP2, TP3",TestPoint_Pad_1.0x1.0mm,3,~,
+U1,C64-Cart,1,C64-Exp-Port,
+U2,SOT-223-3_TabPin2,1,AMS1117-3.3,C6186
+U3,LQFP-100_14x14mm_P0.5mm,1,STM32H7B0VBTx,C730227
+XS1,Conn_uSDcard,1,uSD_push_push,C91145
+Y1,Crystal_SMD_3225-4Pin_3.2x2.5mm,1,25 MHz,C9006
