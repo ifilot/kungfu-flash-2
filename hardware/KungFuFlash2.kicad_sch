@@ -6753,102 +6753,6 @@
 				)
 			)
 		)
-		(symbol "power:PWR_FLAG"
-			(power)
-			(pin_numbers hide)
-			(pin_names
-				(offset 0) hide)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "#FLG"
-				(at 0 1.905 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Value" "PWR_FLAG"
-				(at 0 3.81 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Special symbol for telling ERC where power comes from"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "flag power"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "PWR_FLAG_0_0"
-				(pin power_out line
-					(at 0 0 90)
-					(length 0)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(symbol "PWR_FLAG_0_1"
-				(polyline
-					(pts
-						(xy 0 0) (xy 0 1.27) (xy -1.016 1.905) (xy 0 2.54) (xy 1.016 1.905) (xy 0 1.27)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-		)
 	)
 	(junction
 		(at 43.18 179.07)
@@ -9742,6 +9646,17 @@
 		)
 		(uuid "ffe769ca-a15a-4d8a-920d-4d37d5b6c8be")
 	)
+	(text "Adapted from: https://github.com/KimJorgensen/KungFuFlash2\nSmall modifications made to increase compatibility with \n\"basic\" components of JLCPCB Fab.\nSources: https://github.com/ifilot/kungfu-flash-2"
+		(exclude_from_sim no)
+		(at 199.898 174.752 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "bcba6639-337a-440d-bafe-7a085a4214c4")
+	)
 	(label "A0"
 		(at 88.9 138.43 180)
 		(fields_autoplaced yes)
@@ -11796,7 +11711,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part #" "C91145"
+		(property "LCSC Part #" ""
 			(at 255.27 90.17 0)
 			(effects
 				(font
@@ -12470,7 +12385,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part #" "C466643"
+		(property "LCSC Part #" ""
 			(at 198.12 34.29 0)
 			(effects
 				(font
@@ -15162,15 +15077,6 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Enable" "0"
-			(at 186.69 173.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(instances
 			(project "KungFuFlash2"
 				(path "/900d3ff0-0a04-4b16-beae-b4a6786432f6"
@@ -15924,72 +15830,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:PWR_FLAG")
-		(at 264.16 25.4 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "1c927208-e430-4bdc-96b5-735620507352")
-		(property "Reference" "#FLG03"
-			(at 264.16 23.495 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "PWR_FLAG"
-			(at 264.16 20.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 264.16 25.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 264.16 25.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Special symbol for telling ERC where power comes from"
-			(at 264.16 25.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "5f5d26f6-7612-40d0-8b78-75e55be6a0c8")
-		)
-		(instances
-			(project "KungFuFlash2"
-				(path "/900d3ff0-0a04-4b16-beae-b4a6786432f6"
-					(reference "#FLG03")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:+3V3")
 		(at 118.11 44.45 0)
 		(unit 1)
@@ -16125,71 +15965,6 @@
 			(project "KungFuFlash2"
 				(path "/900d3ff0-0a04-4b16-beae-b4a6786432f6"
 					(reference "R15")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+5V")
-		(at 264.16 25.4 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "39dfdfc6-0c76-4855-9ba2-44f428955711")
-		(property "Reference" "#PWR07"
-			(at 264.16 21.59 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+5V"
-			(at 263.779 29.7942 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 264.16 25.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 264.16 25.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 264.16 25.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "fad1eaae-d2ea-46ce-af30-c60be8bb5a64")
-		)
-		(instances
-			(project "KungFuFlash2"
-				(path "/900d3ff0-0a04-4b16-beae-b4a6786432f6"
-					(reference "#PWR07")
 					(unit 1)
 				)
 			)

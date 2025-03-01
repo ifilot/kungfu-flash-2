@@ -1,6 +1,14 @@
-# Kung Fu Flash 2
+# Kung Fu Flash 2 - Adapted version
 
 Cartridge for the Commodore 64 that packs a punch.
+
+> [!IMPORTANT]  
+> This repository is a fork of [Kung Fu Flash 2](https://github.com/KimJorgensen/KungFuFlash2).
+> A number of changes have been made to the original design, mainly focusing
+> on using so-called "BASIC" parts to reduce upon the cost of using the JLCPCB
+> assembly service.
+> In the folder [hardware/production](hardware/production) one can find the
+> BOM and CPL files for using the JLCPCB assembly service.
 
 Kung Fu Flash 2 is the big brother of [Kung Fu Flash](https://github.com/KimJorgensen/KungFuFlash). It has a faster microcontroller with more memory and I/O pins, allowing for additional functionality.
 
