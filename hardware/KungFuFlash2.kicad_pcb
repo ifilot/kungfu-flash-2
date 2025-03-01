@@ -287,12 +287,12 @@
 				)
 			)
 		)
-		(property "JLCPCB" ""
+		(property "LCSC Part #" "C134186"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "a7e654ed-2af8-4af3-9563-a3f358fba9d4")
+			(uuid "ff6cc176-7137-47ca-8cdf-ec98740ca53a")
 			(effects
 				(font
 					(size 1 1)
@@ -3923,12 +3923,12 @@
 				)
 			)
 		)
-		(property "JLCPCB" ""
+		(property "LCSC Part #" "C134186"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "63670301-21ea-4174-86a5-2a8ed0913b17")
+			(uuid "b4ce4297-61e4-4cbd-9ca9-b95115605b3c")
 			(effects
 				(font
 					(size 1 1)
@@ -5992,7 +5992,7 @@
 				)
 			)
 		)
-		(property "LCSC Part #" "C466643"
+		(property "LCSC Part #" ""
 			(at 0 0 -90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -7643,12 +7643,12 @@
 				)
 			)
 		)
-		(property "JLCPCB" ""
+		(property "LCSC Part #" "C134186"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "d92fb2b8-c4bf-4aa8-a43e-0394b4fc5bdd")
+			(uuid "e5f6bd43-c02a-44c8-bccf-8045afa00d61")
 			(effects
 				(font
 					(size 1 1)
@@ -10390,12 +10390,12 @@
 				)
 			)
 		)
-		(property "JLCPCB" ""
+		(property "LCSC Part #" "C46391"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "fbf6aee9-f5f4-4a01-a990-9602ac6fca31")
+			(uuid "9908fd48-2104-42a4-bd7f-79f50001eaf1")
 			(effects
 				(font
 					(size 1 1)
@@ -14097,12 +14097,12 @@
 				)
 			)
 		)
-		(property "JLCPCB" ""
+		(property "LCSC Part #" "C466643"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "5d2c238c-5820-49de-af05-ec2b469fca5d")
+			(uuid "b255a5a2-7ce3-4c20-8b0d-ca08254c512b")
 			(effects
 				(font
 					(size 1 1)

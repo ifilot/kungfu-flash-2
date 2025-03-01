@@ -5,16 +5,16 @@
 "C7, C8",0603,2,20pF,C1648
 D1,0805,1,LED,C2297
 "D2, D3",D_SMA_Handsoldering,2,D_Schottky,C14996
-J1,PinHeader_1x05_P2.54mm_Vertical,1,SWD,
-J2,Conn_USBmini_reichelt,1,USB_B_Micro,
+J1,PinHeader_1x05_P2.54mm_Vertical,1,SWD,C466643
+J2,Conn_USBmini_reichelt,1,USB_B_Micro,C46391
 J3,PinSocket_2x04_P2.54mm_Vertical,1,Wifi,
-Q1,SOT-23,1,BC817,C466643
+Q1,SOT-23,1,BC817,
 "R1, R4, R5, R6, R7",0805,5,510R,C17734
 "R10, R11, R12, R13, R14, R15, R8, R9",0805,8,100R,C17408
 "R2, R3",0805,2,10k,C17414
-SW1,SW_PUSH_6mm_H8mm,1,Reset,
-SW2,SW_PUSH_6mm_H8mm,1,Menu,
-SW3,SW_PUSH_6mm_H8mm,1,Special,
+SW1,SW_PUSH_6mm_H8mm,1,Reset,C134186
+SW2,SW_PUSH_6mm_H8mm,1,Menu,C134186
+SW3,SW_PUSH_6mm_H8mm,1,Special,C134186
 "TP1, TP2, TP3",TestPoint_Pad_1.0x1.0mm,3,~,
 U1,C64-Cart,1,C64-Exp-Port,
 U2,SOT-223-3_TabPin2,1,AMS1117-3.3,C6186

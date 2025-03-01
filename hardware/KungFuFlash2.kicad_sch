@@ -11711,7 +11711,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part #" ""
+		(property "LCSC Part #" "C91145"
 			(at 255.27 90.17 0)
 			(effects
 				(font
@@ -11801,6 +11801,15 @@
 			)
 		)
 		(property "Description" "Push button switch, generic, two pins"
+			(at 209.55 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C134186"
 			(at 209.55 92.71 0)
 			(effects
 				(font
@@ -11934,6 +11943,15 @@
 			)
 		)
 		(property "Description" "Push button switch, generic, two pins"
+			(at 209.55 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C134186"
 			(at 209.55 107.95 0)
 			(effects
 				(font
@@ -12594,6 +12612,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC Part #" "C46391"
+			(at 255.27 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "849ad2ca-4316-4ed1-9826-77a65cf311dd")
 		)
@@ -13225,6 +13252,15 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x05, script generated"
+			(at 200.66 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C466643"
 			(at 200.66 62.23 0)
 			(effects
 				(font
@@ -14857,6 +14893,15 @@
 			)
 		)
 		(property "Description" "Push button switch, generic, two pins"
+			(at 76.2 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C134186"
 			(at 76.2 31.75 0)
 			(effects
 				(font
